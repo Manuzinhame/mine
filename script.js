@@ -6,17 +6,17 @@ const textoResultado = document.querySelector("texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Pergunta 1"
+        enunciado: "1 Qual é uma das principais causas da poluição nos mares?"
         alternativas: [
-            "Alternativa 1"
-            "Alternativa 2"
+            "A) Descarte inadequado de plásticos e resíduos."
+            "B) Resíduos naturais como folhas e galhos"
         ]
     },
     {
-        enunciado: "Pergunta 2",
+        enunciado: "2 O que é microplástico?",
         alternativas: [
-            "Alternativa 1",
-            "Alternativa 2"
+            "A) Pequenas partículas de plástico resultantes da degradação de produtos maiores.",
+            "B) Pequenas partículas de areia encontradas em praias."
         ]
     }
 ];
