@@ -42,23 +42,30 @@ const perguntas = [
 
 let atual =0;
 let perguntaAtual;
+let historiaFinal="";
 
 function mostraPergunta(){
     perguntaAtual = perguntas[atual];
     caixaPergunta.textContent = perguntaAtual.enunciado;
-    mostraAlternativas ();
+    mostraAlternativas();
 }
 
-function mostraAlternativas() {
+function mostraAlternativas(){
     for (const alternativa of perguntaAtual.alternativas) {
       const botaoAlternativas = document.createElement("button");
       botaoAlternativas.textContent = alternativa.texto;
-      botaoAlternativas.addEventListener("click", function () {
-        atual++;
-        mostraPergunta();
-      });
-      caixaAlternativas.appendChild(botaoAlternativas);
+      botaoAlternativas.addEventListener("click", function () => respostaSelecionada(alternativa));
+      caixaAlternativas.appencChild(botaoAltenativas);  
+     
     }
-  }
+}
+
+function respostaSelecionada(opcaoSelecionada){
+    const afirmacoes = opcaoSelecionada.afirmacoes;
+    historiaFinal = afirmacoes;
+    atual++;
+    mostraPergunta();
+}
+  
   
 mostraPergunta()
