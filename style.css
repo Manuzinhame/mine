@@ -25,6 +25,7 @@ body{
 
 .caixa-perguntas{
     background-color: var(--cor-texto);
+}
 
 h1{
     color: var(--cor-destaque);
