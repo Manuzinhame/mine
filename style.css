@@ -25,10 +25,6 @@ body{
 
 .caixa-perguntas{
     background-color: var(--cor-texto);
-    width: 90%;
-    display: flex;
-    padding: 20px;
-}
 
 h1{
     color: var(--cor-destaque);
