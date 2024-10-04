@@ -8,7 +8,7 @@
 
 body{
     background-color: var(--cor-fundo);
-    color: var(--cor-texto);
+    color: var(--cor-principal);
     display:flex;
     justify-content:center;
     align-items: center;
@@ -23,10 +23,8 @@ body{
 }
 
 .caixa-perguntas{
-    background-color: var(--cor-texto);
-    width: 90%;
-    text-align: center;
-    padding: 20px;
+  background-color: var(--cor-texto);
+  p
 }
 
 h1{
