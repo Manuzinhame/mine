@@ -18,7 +18,15 @@ body{
 .caixa-principal{
     background-color: var(--cor-principal);
     width: 90%;
+    top: 0;
     text-align: center;
+    padding: 20px;
+}
+
+.caixa-perguntas{
+    background-color: var(--cor-texto);
+    width: 90%;
+    display: flex;
     padding: 20px;
 }
 
